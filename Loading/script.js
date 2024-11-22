@@ -1,5 +1,5 @@
 const url = "https://script.google.com/macros/s/AKfycbyD5FghkAOp_xHpMbv4FvyfNyagWUlbdvAhnfkHTd69aPhTrmR9g6jfU-LyqNHHFxMI/exec";
-const grade = ['國三', '國二', '國一', '高三', '高一', '老師', '親善'];
+const grade = ['國三', '國二', '國一', '高三', '高一', '老師'];
 
 function getQueryParams() {
     const params = new URLSearchParams(window.location.search);
